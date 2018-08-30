@@ -8,21 +8,21 @@ String apiKey = "UX3Z4FYVUJLI8PLG";     //  Enter your Write API key from ThingS
 const char *ssid =  "home";     // replace with your wifi ssid and wpa2 key
 const char *pass =  "12345678";
 const char* server = "api.thingspeak.com";
-int WET= 12; // Wet Indicator at Digital pin D0 .............................. .........................// 
-int sensor = 13; // ......................................................................................// IR SENSOR OUT TO PIN D7
+int WET= 12; // Wet Indicator at Digital pin D0  
+int sensor = 13; // IR SENSOR OUT TO PIN D7
 int DRY= 2;  // Dry Indicator at Digital pin D4
-int sense_Pin = 0; // sensor input at Analog pin A0 ....................................................// connect soil moisture d0 to a0
-int Status = 16;  //ir led......................................................................            // IR LED OUT STATUS TO D6 
-int value = 0; //  CALMM!!  its a variable
-//const int buzzer =  4; ................................................................................//  IR OUTPUT BUZZER TO PIN D2 (test alter)
+int sense_Pin = 0; // sensor input at Analog pin A0 connect soil moisture d0 to a0
+int Status = 16;  // IR LED OUT STATUS TO D6 
+int value = 0; // just a variable
+//const int buzzer =  4; IR OUTPUT BUZZER TO PIN D2 (test alter)
 
-#define DHTPIN 5                                                                                   //only for dht pin 0
+#define DHTPIN 5   //only for dht pin 0
 DHT dht(DHTPIN, DHT11);
 WiFiClient client;
 void setup() 
 {
    Serial.begin(9600);
-//   pinMode(buzzer, OUTPUT);
+// pinMode(buzzer, OUTPUT);
    pinMode(WET, OUTPUT);
    pinMode(DRY, OUTPUT);
    pinMode(sensor, INPUT);   // declare sensor as input
@@ -30,7 +30,6 @@ void setup()
    pinMode(LED_BUILTIN,OUTPUT);
    delay(2000);
     
-//   Serial.begin(115200);
        delay(10);
        dht.begin();
  
