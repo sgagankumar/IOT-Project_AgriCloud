@@ -1,5 +1,5 @@
 # AgriCould_IOT-PROJECT
-IOT based project that provides live monitoring of climatic conditions and better irrigation.
+   An IOT based project that provides live monitoring of climatic conditions and better irrigation.
 
 # AGRICLOUD PROJECT
 
