@@ -26,4 +26,14 @@ Components/Sensors Used
     5)ThingsSpeak Cloud
     6)io.Adafruit applet
     7)IFTTT applets
+    
+## Project Prototype Images
+<div align="center" ><img src="https://github.com/sgagankumar/IOT-Project_AgriCloud/blob/master/Images/IMG1.jpg" alt="Image" width=auto height=480px/></div>
+### Fig 1 : Mobile Application to Monitor Real-time Data
+<div align="center" ><img src="https://github.com/sgagankumar/IOT-Project_AgriCloud/blob/master/Images/IMG2.jpg" alt="Image" width=auto height=480px/></div>
+### Fig 2 : Prototype Model for Demonstration 
+<div align="center" ><img src="https://github.com/sgagankumar/IOT-Project_AgriCloud/blob/master/Images/IMG3.jpg" alt="Image" width=auto height=480px/></div>
+### Fig 3 : Soil Moisture Sensor
+<div align="center" ><img src="https://github.com/sgagankumar/IOT-Project_AgriCloud/blob/master/Images/IMG4.jpg" alt="Image" width=auto height=480px/></div>
+### Fig 4 : Ultrasonic Radar System
 
